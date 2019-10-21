@@ -22,6 +22,11 @@ package main
 
 import "github.com/gnames/gnresolve/gnresolve/cmd"
 
+var (
+	buildVersion string
+	buildDate    string
+)
+
 func main() {
-	cmd.Execute()
+	cmd.Execute(buildVersion, buildDate)
 }

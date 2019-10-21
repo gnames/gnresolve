@@ -1,0 +1,15 @@
+---
+
+# Number of workers(jobs) to run indexing.
+Jobs: 3
+
+# Path to a file with input data.
+Input: /tmp/gnrinput/names.txt
+
+# Path to the output directory. This directory will contain files with
+# occurences of scientific names.
+Output: /tmp/gnroutput
+
+# ProgressNum tells how many titles have to be processed before sending a
+# progress report to the STDOUT. If the number is 0 reports do not generate.
+ProgressNum: 100
