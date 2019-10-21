@@ -85,6 +85,10 @@ func init() {
 
 	rootCmd.Flags().BoolP("version", "v", false, "htindex version and build timestamp")
 	rootCmd.Flags().IntP("jobs", "j", 0, "number of workers (jobs)")
+	rootCmd.Flags().StringP("input", "i", "", "path to the input data file")
+	rootCmd.Flags().StringP("output", "o", "", "path to the output directory")
+	rootCmd.Flags().IntP("progress", "p", 0, "number of titles in progress report")
+
 	// Here you will define your flags and configuration settings.
 	// Cobra supports persistent flags, which, if defined here,
 	// will be global for your application.
